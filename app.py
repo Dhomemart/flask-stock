@@ -8,7 +8,7 @@ def home():
 @app.route('/products')
 def show_products():
     rows = [
-        {'PN': 1, 'ProductCode': 'P001', 'Name': 'เหล็กแผ่น', 'Price1': 55.00, 'SUnit': 'แผ่น'},
+        {'PN': 1, 'ProductCode': 'P001', 'Name': 'xเหล็กแผ่นx', 'Price1': 55.00, 'SUnit': 'แผ่น'},
         {'PN': 2, 'ProductCode': 'P002', 'Name': 'เมทัลชีท', 'Price1': 65.50, 'SUnit': 'แผ่น'},
     ]
     return render_template("products.html", rows=rows)
